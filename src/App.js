@@ -1,14 +1,20 @@
 import React from 'react';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ImageUpload from './ImageUpload';
+import SongDisplay from './SongDisplay';
 
 function App() {
     return (
-        <div className="App">
-            <ImageUpload />
-        </div>
+        <Router>
+            <Routes>
+                <Route path="/" element={<ImageUpload />} />
+                <Route path="/song" element={<SongDisplay />} />
+            </Routes>
+        </Router>
     );
 }
 
 export default App;
+
+
 
