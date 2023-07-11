@@ -52,10 +52,11 @@ const ImageUpload = () => {
     // Function to generate a song using OpenAI API
     const generateSong = async (labels, genre) => {
         const prompt = `You are in the role of an award winning songwriter, famous for the imagery and nostalgia in your lyrics. Write a new ${genre} song using the keywords ${labels}. Make the song fun and lively.`;
-
+        const model = 'gpt-3.5-turbo';
         try {
-            const response = await axios.post("https://api.openai.com/v1/engines/davinci/completions", {
-                prompt,
+            const response = await axios.post("https://api.openai.com/v1/chat/completions", {
+            model,    
+            prompt,
                 max_tokens: 150
             }, {
                 headers: {
