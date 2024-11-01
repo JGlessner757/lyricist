@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Lyricist
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Lyricist** is an AI-powered application that transforms photos into song lyrics. By taking a photo and providing a few simple inputs, users can generate unique, creative lyrics that match the mood, style, and theme of their captured moment.
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+The **Lyricist** app leverages AI and natural language processing (NLP) to interpret the elements of a photo and combine them with user-defined inputs to create personalized song lyrics. This project aims to inspire creativity in songwriters, poets, and music enthusiasts by turning everyday moments into lyrical expressions.
 
-### `npm start`
+### Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Photo-Based Inspiration**: Users can take a photo, which the app analyzes to suggest themes, emotions, and keywords for the lyrics.
+- **User Inputs for Customization**: Users can define the mood, style, and theme of the song, such as happy, melancholy, upbeat, or nostalgic.
+- **AI-Generated Lyrics**: The app uses advanced AI models to craft unique and engaging song lyrics based on the combined photo analysis and user preferences.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Goals and Roadmap
 
-### `npm test`
+This project is currently under active development. Planned future features include:
+- **Enhanced Photo Analysis**: Improve image recognition to better identify objects, scenes, and colors that influence the lyrical tone.
+- **Lyric Editing**: Allow users to tweak and refine the AI-generated lyrics.
+- **Integration with Music Composition Tools**: Export lyrics directly into music composition software for seamless songwriting.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Project Structure
 
-### `npm run build`
+- `src` - Core source code for AI processing and lyric generation.
+- `data` - Sample data and training sets for NLP models.
+- `scripts` - Utilities for testing, data preprocessing, and model training.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+We welcome contributions! Feel free to fork the repository, submit pull requests, or open issues to discuss new ideas.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
